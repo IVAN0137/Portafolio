@@ -243,4 +243,35 @@ header .btn-cv:hover {
         margin-left: 10px;
     }
 }
+.foto img {
+    max-width: 200px;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
 
+.section ul li i {
+    margin-right: 10px;
+    font-size: 1.2em;
+    width: 25px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.section ul li:hover i {
+    transform: rotate(360deg);
+}
+
+/* Colores específicos para cada icono */
+.fa-html5 { color: #e34f26; }
+.fa-php { color: #777bb4; }
+.fa-java { color: #007396; }
+.fa-android { color: #3DDC84; }
+.fa-github { color: #333; }
+.fa-database { color: #f29111; }
+.fa-css3-alt { color: #264de4; }
+.fa-js { color: #f7df1e; }
+.fa-file-word { color: #2b579a; }
+.fa-file-excel { color: #217346; }
+.fa-file-powerpoint { color: #d24726; }
+.fa-cube { color: #666666; }
